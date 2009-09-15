@@ -7,6 +7,7 @@ Url:            http://www.kde-apps.org/content/show.php/Kamoso?content=111750
 Group:          Graphical desktop/KDE
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source:         111750-kamoso-dali.tar.bz2
+Patch0:         kamoso-fix-build.patch
 
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
@@ -30,6 +31,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 
 %prep
 %setup -q -n %name
+%patch0 -p1
 
 %build
 %cmake_kde4
