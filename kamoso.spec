@@ -6,6 +6,7 @@ License:        GPL v2 or later
 Url:            http://www.kde-apps.org/content/show.php/Kamoso?content=111750
 Group:          Graphical desktop/KDE
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+BuildRequires:  kdelibs4-devel
 Source:         111750-kamoso-dali.tar.bz2
 Patch0:         kamoso-fix-build.patch
 
