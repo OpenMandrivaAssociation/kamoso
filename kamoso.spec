@@ -8,6 +8,7 @@ Group:          Graphical desktop/KDE
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  kdelibs4-devel
 BuildRequires:  vlc-devel
+BuildRequires:  kdebase4-workspace-devel
 Source:         111750-kamoso-dali.tar.bz2
 Patch0:         kamoso-fix-build.patch
 
