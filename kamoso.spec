@@ -1,4 +1,4 @@
-%define prever alpha2
+%define prever beta1
 
 Name:           kamoso
 Summary:        Application to take pictures and videos out of your webcam
