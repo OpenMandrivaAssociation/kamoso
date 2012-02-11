@@ -1,7 +1,7 @@
 Name:           kamoso
 Summary:        Application to take pictures and videos out of your webcam
 Version:        2.0.2
-Release:        1
+Release:        2
 License:        GPLv2+
 Url:            http://www.kde-apps.org/content/show.php/Kamoso?content=111750
 Group:          Graphical desktop/KDE
@@ -11,6 +11,7 @@ BuildRequires:	kdegraphics4-devel
 BuildRequires:	boost-devel
 Requires:	qt-gstreamer
 Source:         http://fr2.rpmfind.net/linux/KDE/stable/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
+Patch0:		kamoso-2.0.2-l10n-ru.patch
 
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
@@ -27,6 +28,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 
 %prep
 %setup -q -n %name-%version
+%patch0 -p 1
 
 %build
 %cmake_kde4
