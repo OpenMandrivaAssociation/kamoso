@@ -1,0 +1,10 @@
+--- kamoso-2.0.2/src/plugins/youtube/kipiplugin_youtube.h	2011-05-25 01:34:42.000000000 +0300
++++ kamoso-2.0.2/src/plugins/youtube/kipiplugin_youtube.h	2012-05-29 20:11:02.551082728 +0300
+@@ -23,6 +23,7 @@
+ #include <KIO/Job>
+ #include <libkipi/plugin.h>
+ #include <libkipi/exportinterface.h>
++#include <libkipi/imagecollection.h>
+ 
+ class YoutubePlugin : public KIPI::Plugin, public KIPI::ExportInterface
+ {
