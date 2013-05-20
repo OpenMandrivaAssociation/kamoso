@@ -1,12 +1,19 @@
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
 Version:	2.0.2
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://launchpad.net/kamoso
 Source:		ftp://ftp.kde.org/pub/kde/stable/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
-Patch0:		kamoso-2.0.2-libkipi-4.8.80.patch
+## upstream patches
+Patch105:	0005-Make-the-About-dialog-work.patch
+Patch121:	0021-add-include.patch
+Patch131:	0031-Store-and-install-kamoso.desktop-with-755-permission.patch
+Patch132:	0032-use-camera-web-icon-instead-of-webcamreceive.patch
+Patch133:	0033-initial-port-to-libkipi-2.x.patch
+Patch134:	0034-add-license-header.patch
+Patch135:	0035-fix-build-for-libkipi-2.patch
 BuildRequires:	boost-devel
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(QtGStreamer-0.10)
@@ -28,7 +35,14 @@ Kamoso is an application to take pictures and videos out of your webcam.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch105 -p1 -b .0005
+%patch121 -p1 -b .0021
+%patch131 -p1 -b .0031
+%patch132 -p1 -b .0032
+%patch133 -p1 -b .0033
+%patch134 -p1 -b .0034
+%patch135 -p1 -b .0035
+
 # rename some icons that conflict with kdeplasma-addons
 # upstreamed,
 # http://commits.kde.org/kamoso/b8b03322d58a920deac198c2360d65deddccd610
