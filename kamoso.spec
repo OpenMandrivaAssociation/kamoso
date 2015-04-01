@@ -31,15 +31,6 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %prep
 %setup -qn %{name}-%{version}-%{snapshot}
 
-# rename some icons that conflict with kdeplasma-addons
-# upstreamed,
-# http://commits.kde.org/kamoso/b8b03322d58a920deac198c2360d65deddccd610
-pushd src/plugins/youtube
-sed -i.bak -e 's|^Icon=youtube|Icon=kipiplugin_youtube|' *.desktop
-for icon in icons/*-action-youtube.* ; do
-  new_name=$(echo ${icon} | sed -e's|-youtube|-kipiplugin_youtube|')
-  mv ${icon} ${new_name}
-done
 
 %build
 %cmake_kde4
