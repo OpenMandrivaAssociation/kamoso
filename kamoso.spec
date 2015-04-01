@@ -18,7 +18,7 @@ Requires:	qt-gstreamer
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
 
-%files -f %{name}.lang
+%files
 %{_kde_bindir}/*
 %{_kde_libdir}/kde4/*.so
 %{_kde_applicationsdir}/kamoso.desktop
@@ -39,5 +39,4 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %install
 %makeinstall_std -C build
 
-%find_lang %{name}
 
