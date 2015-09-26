@@ -1,18 +1,31 @@
-%define snapshot 20150331
-
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
-Version:	2.0.2
-Release:	9.%{snapshot}.2
+Version:	3.0
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://launchpad.net/kamoso
-#git archive --format=tar --prefix=kamoso-2.0.2-$(date +%Y%m%d)/ HEAD | xz -vf > kamoso-2.0.2-$(date +%Y%m%d).tar.x
-Source:		ftp://ftp.kde.org/pub/kde/stable/%{name}/%{version}/src/%{name}-%{version}-%{snapshot}.tar.xz
+Source:		http://download.kde.org/stable/%{name}/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	boost-devel
-BuildRequires:	kdelibs4-devel
-BuildRequires:	pkgconfig(QtGStreamer-1.0)
-BuildRequires:	pkgconfig(libkipi)
+BuildRequires:	pkgconfig(Qt5GStreamer)
+BuildRequires:	cmake(ECM)
+BuildRequires:	cmake(Qt5Core)
+BuildRequires:	cmake(Qt5Gui)
+BuildRequires:	cmake(Qt5Widgets)
+BuildRequires:	cmake(Qt5Quick)
+BuildRequires:	cmake(Qt5Network)
+BuildRequires:	cmake(Qt5OpenGL)
+BuildRequires:	cmake(Qt5DBus)
+BuildRequires:	cmake(Qt5Test)
+BuildRequires:	cmake(KF5WidgetsAddons)
+BuildRequires:	cmake(KF5Config)
+BuildRequires:	cmake(KF5ConfigWidgets)
+BuildRequires:	cmake(KF5DocTools)
+BuildRequires:	cmake(KF5Solid)
+BuildRequires:	cmake(KF5KIO)
+BuildRequires:	cmake(KF5Declarative)
+BuildRequires:	cmake(KF5I18n)
+
 Requires:	qt-gstreamer
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
@@ -33,14 +46,14 @@ Kamoso is an application to take pictures and videos out of your webcam.
 #--------------------------------------------------------------------
 
 %prep
-%setup -qn %{name}-%{version}-%{snapshot}
+%setup -q
 
 
 %build
-%cmake_kde4
-%make
+%cmake_kde5
+%ninja
 
 %install
-%makeinstall_std -C build
+%ninja_install -C build
 
 
