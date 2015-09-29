@@ -7,7 +7,7 @@ Group:		Graphical desktop/KDE
 Url:		https://launchpad.net/kamoso
 Source:		http://download.kde.org/stable/%{name}/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	boost-devel
-BuildRequires:	pkgconfig(Qt5GStreamer)
+BuildRequires:	pkgconfig(Qt5GStreamer-1.0)
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt5Core)
 BuildRequires:	cmake(Qt5Gui)
@@ -25,6 +25,7 @@ BuildRequires:	cmake(KF5Solid)
 BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5Declarative)
 BuildRequires:	cmake(KF5I18n)
+BuildRequires:	cmake(KDEExperimentalPurpose)
 
 Requires:	qt-gstreamer
 Requires:	gstreamer1.0-plugins-base
@@ -34,14 +35,11 @@ Requires:	gstreamer1.0-plugins-bad
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
 
-%files
+%files -f %{name}.lang
 %doc %{_docdir}/HTML/*/kamoso
-%{_kde_bindir}/*
-%{_kde_libdir}/kde4/*.so
-%{_kde_applicationsdir}/kamoso.desktop
-%{_kde_iconsdir}/*/*/*/*
-%{_kde_services}/*.desktop
-%{_kde_servicetypes}/*.desktop
+%{_kde5_bindir}/*
+%{_datadir}/applications/org.kde.kamoso.desktop
+%{_kde5_iconsdir}/*/*/*/*
 
 #--------------------------------------------------------------------
 
@@ -56,4 +54,5 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %install
 %ninja_install -C build
 
+%find_lang %{name}
 
