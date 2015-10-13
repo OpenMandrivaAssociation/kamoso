@@ -45,11 +45,10 @@ Kamoso is an application to take pictures and videos out of your webcam.
 
 %prep
 %setup -q
-
+%cmake_kde5
 
 %build
-%cmake_kde5
-%ninja
+%ninja -C  build
 
 %install
 %ninja_install -C build
