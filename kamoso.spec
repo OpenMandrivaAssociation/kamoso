@@ -39,6 +39,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %doc %{_docdir}/HTML/*/kamoso
 %{_kde5_bindir}/*
 %{_datadir}/applications/org.kde.kamoso.desktop
+%{_datadir}/appdata/org.kde.kamoso.appdata.xml
 %{_kde5_iconsdir}/*/*/*/*
 
 #--------------------------------------------------------------------
