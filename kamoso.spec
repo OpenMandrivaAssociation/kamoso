@@ -1,11 +1,13 @@
+%define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
+
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
-Version:	3.2.4
+Version:	18.07.80
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
-Source0:	https://download.kde.org/stable/kamoso/%(echo %{version} |cut -d. -f1-2)/src/kamoso-%{version}.tar.xz
+Source0:	https://download.kde.org/%{stable}/applications/%{version}/src/kamoso-%{version}.tar.xz
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(Qt5GStreamer-1.0)
 BuildRequires:	cmake(ECM)
@@ -40,6 +42,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %{_kde5_bindir}/*
 %{_datadir}/applications/org.kde.kamoso.desktop
 %{_datadir}/metainfo/org.kde.kamoso.appdata.xml
+%{_libdir}/gstreamer-1.0/gstkamosoqt5videosink.so
 %{_kde5_iconsdir}/*/*/*/*
 
 #--------------------------------------------------------------------
