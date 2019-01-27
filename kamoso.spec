@@ -32,7 +32,10 @@ Requires:	purpose
 Requires:	qt5-gstreamer
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
+%ifnarch %{arm}
+# No gstreamer-plugins-bad on ARM32 so far...
 Requires:	gstreamer1.0-plugins-bad
+%endif
 
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
