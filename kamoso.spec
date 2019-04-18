@@ -2,8 +2,8 @@
 
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
-Version:	18.12.3
-Release:	2
+Version:	19.04.0
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
@@ -47,6 +47,8 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %{_datadir}/metainfo/org.kde.kamoso.appdata.xml
 %{_libdir}/gstreamer-1.0/gstkamosoqt5videosink.so
 %{_kde5_iconsdir}/*/*/*/*
+%{_datadir}/knotifications5/kamoso.notifyrc
+%{_datadir}/sounds/kamoso-shutter.wav
 
 #--------------------------------------------------------------------
 
@@ -61,4 +63,3 @@ Kamoso is an application to take pictures and videos out of your webcam.
 %ninja_install -C build
 
 %find_lang %{name}
-
