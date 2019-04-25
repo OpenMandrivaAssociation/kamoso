@@ -28,6 +28,7 @@ BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5Declarative)
 BuildRequires:	cmake(KF5I18n)
 BuildRequires:	cmake(KDEExperimentalPurpose)
+BuildRequires:	cmake(KF5Notifications)
 Requires:	purpose
 Requires:	qt5-gstreamer
 Requires:	gstreamer1.0-plugins-base
@@ -53,7 +54,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 #--------------------------------------------------------------------
 
 %prep
-%setup -q
+%autosetup -p1
 %cmake_kde5
 
 %build
