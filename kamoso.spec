@@ -2,12 +2,12 @@
 
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
-Version:	19.11.90
+Version:	19.12.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
-Source0:	https://download.kde.org/%{stable}/applications/%{version}/src/kamoso-%{version}.tar.xz
+Source0:	https://download.kde.org/%{stable}/release-service/%{version}/src/kamoso-%{version}.tar.xz
 BuildRequires:	boost-devel
 BuildRequires:	pkgconfig(Qt5GStreamer-1.0)
 BuildRequires:	cmake(ECM)
