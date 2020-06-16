@@ -3,7 +3,7 @@
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
 Version:	20.04.2
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
@@ -29,8 +29,14 @@ BuildRequires:	cmake(KF5Declarative)
 BuildRequires:	cmake(KF5I18n)
 BuildRequires:	cmake(KDEExperimentalPurpose)
 BuildRequires:	cmake(KF5Notifications)
+BuildRequires:	cmake(KF5Kirigami2)
+BuildRequires:	qt5-qtgraphicaleffects
+BuildRequires:	qt5-qtquickcontrols
 Requires:	purpose
+Requires:	kirigami
 Requires:	qt5-gstreamer
+Requires:	qt5-qtgraphicaleffects
+Requires:	qt5-qtquickcontrols
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
 %ifnarch %{arm}
