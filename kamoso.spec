@@ -3,7 +3,7 @@
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
 Version:	22.04.1
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
