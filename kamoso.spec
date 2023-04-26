@@ -1,9 +1,9 @@
-%define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
+%define stable %([ "$(echo %{version} |cut -d. -f3)" -ge 80 ] && echo -n un; echo -n stable)
 
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
 Version:	23.04.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
@@ -31,12 +31,12 @@ BuildRequires:	cmake(KDEExperimentalPurpose)
 BuildRequires:	cmake(KF5Notifications)
 BuildRequires:	cmake(KF5Kirigami2)
 BuildRequires:	qt5-qtgraphicaleffects
-BuildRequires:	qt5-qtquickcontrols
+BuildRequires:	qt5-qtquickcontrols2
 Requires:	purpose
 Requires:	kirigami
 Requires:	qt5-gstreamer
 Requires:	qt5-qtgraphicaleffects
-Requires:	qt5-qtquickcontrols
+Requires:	qt5-qtquickcontrols2
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
 %ifnarch %{arm}
