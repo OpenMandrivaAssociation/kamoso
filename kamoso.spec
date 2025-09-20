@@ -31,6 +31,7 @@ BuildRequires:	cmake(KF6Notifications)
 BuildRequires:	cmake(KF6Kirigami2)
 BuildRequires:	pkgconfig(gstreamer-1.0)
 BuildRequires:	pkgconfig(gstreamer-video-1.0)
+BuildRequires:	clang-tools
 BuildSystem:	cmake
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
