@@ -2,71 +2,42 @@
 
 Name:		kamoso
 Summary:	Application to take pictures and videos out of your webcam
-Version:	23.08.5
+Version:	25.08.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://userbase.kde.org/Kamoso
 Source0:	https://download.kde.org/%{stable}/release-service/%{version}/src/kamoso-%{version}.tar.xz
 BuildRequires:	boost-devel
-BuildRequires:	pkgconfig(Qt5GStreamer-1.0)
 BuildRequires:	cmake(ECM)
-BuildRequires:	cmake(Qt5Core)
-BuildRequires:	cmake(Qt5Gui)
-BuildRequires:	cmake(Qt5Widgets)
-BuildRequires:	cmake(Qt5Quick)
-BuildRequires:	cmake(Qt5Network)
-BuildRequires:	cmake(Qt5OpenGL)
-BuildRequires:	cmake(Qt5DBus)
-BuildRequires:	cmake(Qt5Test)
-BuildRequires:	cmake(KF5WidgetsAddons)
-BuildRequires:	cmake(KF5Config)
-BuildRequires:	cmake(KF5ConfigWidgets)
-BuildRequires:	cmake(KF5DocTools)
-BuildRequires:	cmake(KF5Solid)
-BuildRequires:	cmake(KF5KIO)
-BuildRequires:	cmake(KF5Declarative)
-BuildRequires:	cmake(KF5I18n)
-BuildRequires:	cmake(KDEExperimentalPurpose)
-BuildRequires:	cmake(KF5Notifications)
-BuildRequires:	cmake(KF5Kirigami2)
-BuildRequires:	qt5-qtgraphicaleffects
-BuildRequires:	qt5-qtquickcontrols2
-Requires:	purpose
-Requires:	kirigami
-Requires:	qt5-gstreamer
-Requires:	qt5-qtgraphicaleffects
-Requires:	qt5-qtquickcontrols2
-Requires:	gstreamer1.0-plugins-base
-Requires:	gstreamer1.0-plugins-good
-%ifnarch %{arm}
-# No gstreamer-plugins-bad on ARM32 so far...
-Requires:	gstreamer1.0-plugins-bad
-%endif
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Widgets)
+BuildRequires:	cmake(Qt6Quick)
+BuildRequires:	cmake(Qt6Network)
+BuildRequires:	cmake(Qt6OpenGL)
+BuildRequires:	cmake(Qt6DBus)
+BuildRequires:	cmake(Qt6Test)
+BuildRequires:	cmake(KF6WidgetsAddons)
+BuildRequires:	cmake(KF6Config)
+BuildRequires:	cmake(KF6ConfigWidgets)
+BuildRequires:	cmake(KF6DocTools)
+BuildRequires:	cmake(KF6Solid)
+BuildRequires:	cmake(KF6KIO)
+BuildRequires:	cmake(KF6Declarative)
+BuildRequires:	cmake(KF6I18n)
+BuildRequires:	cmake(KF6Purpose)
+BuildRequires:	cmake(KF6Notifications)
+BuildRequires:	cmake(KF6Kirigami2)
+BuildSystem:	cmake
+BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
 %description
 Kamoso is an application to take pictures and videos out of your webcam.
 
 %files -f %{name}.lang
-%doc %{_docdir}/HTML/*/kamoso
-%{_kde5_bindir}/*
+%{_bindir}/*
 %{_datadir}/applications/org.kde.kamoso.desktop
 %{_datadir}/metainfo/org.kde.kamoso.appdata.xml
-%{_libdir}/gstreamer-1.0/gstkamosoqt5videosink.so
-%{_kde5_iconsdir}/*/*/*/*
-%{_datadir}/knotifications5/kamoso.notifyrc
-%{_datadir}/sounds/kamoso-shutter.wav
-
-#--------------------------------------------------------------------
-
-%prep
-%autosetup -p1
-%cmake_kde5
-
-%build
-%ninja -C  build
-
-%install
-%ninja_install -C build
-
-%find_lang %{name}
+%{_datadir}/icons/*/*/*/*
+%{_datadir}/knotifications6/kamoso.notifyrc
