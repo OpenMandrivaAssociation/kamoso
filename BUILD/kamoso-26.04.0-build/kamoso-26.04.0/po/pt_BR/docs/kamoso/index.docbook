@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kamoso     "<application
+>Kamoso</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
+]>
+<book lang="&language;">
+<bookinfo>
+<title
+>Manual do Kamoso</title>
+<authorgroup>
+<author>
+<personname
+><firstname
+>Esta documentação foi convertida a partir da página KDE UserBase <ulink url="http://userbase.kde.org/Kamoso"
+>Kamoso</ulink
+> página e atualização pelo time de documentação &kde;.</firstname
+> <surname
+></surname
+> </personname>
+      </author>
+<othercredit role="translator"
+><firstname
+>André Marcelo</firstname
+><surname
+>Alvarenga</surname
+><affiliation
+><address
+><email
+>alvarenga@kde.org</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+      </authorgroup>
+<legalnotice
+>&FDLNotice;</legalnotice>
+<date
+>24/08/2016</date>
+      <releaseinfo
+>&kamoso; 3.2</releaseinfo>
+<abstract>
+<para>
+<variablelist>
+  <varlistentry
+><term
+><emphasis role="bold"
+>Tirar uma foto</emphasis
+></term>
+    <listitem>
+    <para
+>O &kamoso; lhe dá a oportunidade de tirar fotos a partir da sua webcam e enviá-las para a Internet</para>
+     </listitem>
+  </varlistentry>
+  <varlistentry
+><term
+><emphasis role="bold"
+>Gravar um vídeo</emphasis
+></term>
+    <listitem>
+    <para
+>O &kamoso; permite gravar vídeos a partir da sua webcam e enviá-los para a Internet</para>
+     </listitem>
+  </varlistentry>
+</variablelist>
+</para>
+      </abstract>
+      <keywordset>
+<keyword
+>KDE</keyword>
+</keywordset>
+</bookinfo>
+<!--userbase <timestamp
+>2012-12-05T19:30:21Z</timestamp
+>-->
+
+<!--userbase-content-->
+<chapter id="user-guide"
+><title
+>Guia do Usuário</title>
+<para
+>Bem-vindo ao &kamoso;! </para>
+<para
+>O &kamoso; é um ótimo programa para usar a sua webcam para tirar fotos ou criar vídeos. Este guia irá ajudá-lo a usar o &kamoso;assim que o tiver instalado. </para>
+<sect1 id="quick-start"
+><title
+>Início rápido</title>
+<para
+>Ao iniciar o &kamoso;, ele exibe esta janela com botões na parte inferior: </para>
+
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="mainwindow.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+></phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<simplelist>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="sc-actions-shoot.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Muda para o modo <guibutton
+>Foto</guibutton
+> para tirar uma foto </member>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="sc-actions-burst.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Muda para o modo <guibutton
+>Disparo contínuo</guibutton
+> e tira fotos continuamente até que você pare clicando novamente no botão do meio </member>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="sc-actions-record.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Muda para o modo <guibutton
+>Gravar</guibutton
+> para gravar um vídeo </member>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="start-stop.png" format="PNG"/></imageobject
+></inlinemediaobject
+>Começa ou para de tirar fotos ou gravar um vídeo</member>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="folder-images.png" format="PNG"/></imageobject>
+</inlinemediaobject
+> <guibutton
+>Exibir galeria</guibutton>
+</member>
+<member
+><inlinemediaobject
+><imageobject>
+<imagedata fileref="preferences-other.png" format="PNG"/></imageobject>
+</inlinemediaobject
+> <guibutton
+>Exibir configurações</guibutton>
+</member
+></simplelist>
+
+<para
+>Fotos e vídeos são numeradas de maneira consecutiva e salvas automaticamente nas <guilabel
+>Pastas de Capturas</guilabel
+> definidas nas configurações. </para>
+
+</sect1>
+
+<sect1 id="managing-captures"
+><title
+>Gerenciando capturas</title>
+
+<para
+>Para visualizar e gerir suas capturas de fotos e vídeos clique no botão <guibutton
+>Exibir galeria</guibutton
+>. No menu de contexto para cada entrada na galeria você pode localizar ações para gerir  </para>
+
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="gallery-actions.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+></phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<para
+>Use <guimenuitem
+>Abrir</guimenuitem
+> para visualizar suas capturas no aplicativo associado. </para>
+
+<para
+>Se você quiser excluir fotos e vídeos, abra a pasta de capturas no gerenciador de arquivos. </para>
+
+<para
+>As próximas ações permitem que você envie as capturas para a Internet ou as envie para um contato ou dispositivo. </para>
+
+<para
+>Use <guimenuitem
+>Salvar como</guimenuitem
+> para copiar todo o conteúdo da galeria para uma nova pasta. </para>
+
+</sect1>
+
+<sect1 id="customizing"
+><title
+>Personalizando</title>
+<para
+>Clique em <guibutton
+>Exibir configurações</guibutton
+> botão para abrir as configurações do painel. Clique novamente para ocultar o painel de configurações. </para>
+
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kamoso-settings.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+></phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<para
+>Se você quiser alterar a pasta onde o &kamoso; salva fotos e vídeos, altere o <guilabel
+>Diretório de capturas</guilabel
+> na parte superior. </para>
+
+<para
+>Ative <guibutton
+>Usar flash</guibutton
+> para iluminar a janela antes de tirar fotos. </para>
+
+<para
+>Usando os controles deslizantes, você pode modificar as configurações da câmera como brilho, matiz, contraste, saturação e gama. </para>
+</sect1>
+
+</chapter>
+
+<!--userbase-content-->
+<chapter id="credits">
+<title
+>Créditos e Licença</title>
+      <para
+>Direitos autorais da documentação, veja a <ulink url="http://userbase.kde.org/index.php?title=Kamoso&amp;action=history"
+>página do histórico do Kamoso</ulink
+> na UserBase.</para>
+      <para
+>Tradução de André Marcelo Alvarenga <email
+>alvarenga@kde.org</email
+></para
+> &underFDL; </chapter>
+&documentation.index;
+</book>

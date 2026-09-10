@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kamoso package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kamoso\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-21 00:42+0000\n"
+"PO-Revision-Date: 2025-07-09 05:28+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Temuri Doghonadze"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Temuri.doghonadze@gmail.com"
+
+#: src/kamoso.cpp:86 src/qml/Main.qml:256
+#, kde-format
+msgid "No device found"
+msgstr "მოწყობილობა ნაპოვნი არაა"
+
+#. i18n: ectx: label, entry (saveUrl), group (General)
+#. i18n: ectx: label, entry (saveVideos), group (General)
+#: src/kamosoSettings.kcfg:11 src/kamosoSettings.kcfg:15
+#, kde-format
+msgid "Where the photos are saved."
+msgstr "სად შეინახება სურათები."
+
+#. i18n: ectx: label, entry (mirrored), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:22
+#, kde-format
+msgid "Vertically mirror the camera view."
+msgstr "კამერის ხედის ვერტიკალური ანარეკლი."
+
+#. i18n: ectx: label, entry (DeviceObjectId), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:25
+#, kde-format
+msgid "Points to the last used webcam."
+msgstr "მიუთითებს ბოლოს გამოყენებულ ვებკამზე."
+
+#: src/main.cpp:23 src/qml/Main.qml:20
+#, kde-format
+msgid "Kamoso"
+msgstr "Kamoso"
+
+#: src/main.cpp:23
+#, kde-format
+msgid "Utility for taking photos and videos using a webcam"
+msgstr "პროგრამა ვებკამის საშუალებით ფოტოებისა და ვიდეოების გადასაღებად"
+
+#: src/main.cpp:24
+#, kde-format
+msgid "(C) 2008-2025 Alex Fiestas and Aleix Pol"
+msgstr "(C) 2008-2025 Alex Fiestas და Aleix Pol"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Semaphore hacker"
+msgstr "სემაფორის ჰაკერი"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Alex Fiestas"
+msgstr "Alex Fiestas"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Coffee drinker"
+msgstr "ყავისმსმელი"
+
+#: src/main.cpp:28
+#, kde-format
+msgid "caseymoura"
+msgstr "caseymoura"
+
+#: src/main.cpp:28
+#, kde-format
+msgid ""
+"Uploaded the shutter sound: https://freesound.org/people/caseymoura/"
+"sounds/445482/"
+msgstr ""
+"ატვირთა ჩხაკუნის ხმა: https://freesound.org/people/caseymoura/sounds/445482/"
+
+#: src/qml/ImagesView.qml:42
+#, kde-format
+msgid "Share"
+msgstr "გაზიარება"
+
+#: src/qml/ImagesView.qml:107 src/qml/ImagesView.qml:152
+#: src/qml/ImagesView.qml:292
+#, kde-format
+msgid "Back"
+msgstr "უკან"
+
+#: src/qml/ImagesView.qml:146
+#, kde-format
+msgid "Media now exported"
+msgstr "მედია ახლა გატანილია"
+
+#: src/qml/ImagesView.qml:173
+#, kde-format
+msgid "Configure Kamoso"
+msgstr "Kamoso-ის მორგება"
+
+#: src/qml/ImagesView.qml:181
+#, kde-format
+msgid "Save Locations"
+msgstr "მდებარეობების შენახვა"
+
+#: src/qml/ImagesView.qml:188
+#, kde-format
+msgid "Pictures:"
+msgstr "სურათები:"
+
+#: src/qml/ImagesView.qml:203 src/qml/ImagesView.qml:212
+#, kde-format
+msgid "Choose the folder where Kamoso will save pictures"
+msgstr "აირჩიეთ საქაღალდე, სადაც Kamoso სურათებს შეინახავს"
+
+#: src/qml/ImagesView.qml:227
+#, kde-format
+msgid "Videos:"
+msgstr "ვიდეოები:"
+
+#: src/qml/ImagesView.qml:242 src/qml/ImagesView.qml:252
+#, kde-format
+msgid "Choose the folder where Kamoso will save videos"
+msgstr "აირჩიეთ საქაღალდე, სადაც Kamoso ვიდეოებს შეინახავს"
+
+#: src/qml/ImagesView.qml:264
+#, kde-format
+msgid "Cameras"
+msgstr "კამერები"
+
+#: src/qml/ImagesView.qml:280
+#, kde-format
+msgctxt "@option:check as in, 'mirror the camera'"
+msgid "Mirror camera"
+msgstr "კამერის ანარეკლი"
+
+#: src/qml/ImagesView.qml:319
+#, kde-kuit-format
+msgctxt "@info"
+msgid "There are no images in <filename>%1</filename>"
+msgstr "<filename>%1</filename>-ში სურათები არაა"
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share %1 Item..."
+msgid_plural "Share %1 Items..."
+msgstr[0] "%1 ელემენტის გაზიარება..."
+msgstr[1] "%1 ელემენტის გაზიარება..."
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share Item..."
+msgstr "ელემენტის გაზიარება..."
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move %1 Item to Trash"
+msgid_plural "Move %1 Items to Trash"
+msgstr[0] "%1 ელემენტის სანაგვე ყუთში გადატანა"
+msgstr[1] "%1 ელემენტის სანაგვე ყუთში გადატანა"
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move Item to Trash"
+msgstr "ელემენტის სანაგვე ყუთში გადატანა"
+
+#: src/qml/ImagesView.qml:354
+#, kde-format
+msgid "Open Pictures Folder"
+msgstr "სურთების საქაღალდის გახსნა"
+
+#: src/qml/ImagesView.qml:363
+#, kde-format
+msgid "Configure Kamoso..."
+msgstr "Kamoso-ის მორგება..."
+
+#: src/qml/Main.qml:84
+#, kde-format
+msgid "Take a Picture"
+msgstr "სურათის გადაღება"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "End Burst"
+msgstr "Burst-ის დასრულება"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "Capture a Burst"
+msgstr "Burst-ის ჩაჭერა"
+
+#: src/qml/Main.qml:112
+#, kde-format
+msgid "1 photo taken"
+msgid_plural "%1 photos taken"
+msgstr[0] "გადაღებულია 1 სურათი"
+msgstr[1] "გადაღებულია %1 სურათი"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Stop Recording"
+msgstr "ჩაწერის გაჩერება"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Record a Video"
+msgstr "ვიდეოს ჩაწერა"
+
+#: src/qml/Main.qml:201
+#, kde-format
+msgid "Effects Gallery"
+msgstr "ეფექტების გალერეა"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Photo taken"
+msgstr "სურათი გადაღებულია"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Saved in %1"
+msgstr "ჩაწერილია %1-ში"

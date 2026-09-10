@@ -1,0 +1,15 @@
+Reading /var/tmp/rpm-tmp.sNBjYy
+Executing(%mkbuilddir): /bin/sh -e /var/tmp/rpm-tmp.8Q4hgX
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.G26nBT
++ umask 022
++ cd /home/bero/abf/kamoso/BUILD/kamoso-26.04.0-build
++ cd /home/bero/abf/kamoso/BUILD/kamoso-26.04.0-build
++ rm -rf kamoso-26.04.0
++ /usr/lib/rpm/rpmuncompress -x -C kamoso-26.04.0 /home/bero/abf/kamoso/kamoso-26.04.0.tar.xz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd kamoso-26.04.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0

@@ -1,0 +1,446 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2012, 2015.
+# Balázs Úr <urbalazs@gmail.com>, 2013.
+# SPDX-FileCopyrightText: 2025 Kristof Kiszel <ulysses@fsf.hu>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-21 00:42+0000\n"
+"PO-Revision-Date: 2025-11-07 21:26+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: src/kamoso.cpp:86 src/qml/Main.qml:256
+#, kde-format
+msgid "No device found"
+msgstr "Nem található eszköz"
+
+#. i18n: ectx: label, entry (saveUrl), group (General)
+#. i18n: ectx: label, entry (saveVideos), group (General)
+#: src/kamosoSettings.kcfg:11 src/kamosoSettings.kcfg:15
+#, kde-format
+msgid "Where the photos are saved."
+msgstr "Hová legyenek mentve a fényképek."
+
+#. i18n: ectx: label, entry (mirrored), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:22
+#, kde-format
+msgid "Vertically mirror the camera view."
+msgstr "Kameranézet tükrözése függőlegesen."
+
+#. i18n: ectx: label, entry (DeviceObjectId), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:25
+#, kde-format
+msgid "Points to the last used webcam."
+msgstr "Az utoljára használt webkamerára mutat."
+
+#: src/main.cpp:23 src/qml/Main.qml:20
+#, kde-format
+msgid "Kamoso"
+msgstr "Kamoso"
+
+#: src/main.cpp:23
+#, kde-format
+msgid "Utility for taking photos and videos using a webcam"
+msgstr "Segédprogram fényképek és videók készítéséhez webkamerával"
+
+#: src/main.cpp:24
+#, kde-format
+msgid "(C) 2008-2025 Alex Fiestas and Aleix Pol"
+msgstr "© Alex Fiestas és Aleix Pol, 2008-2025."
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Semaphore hacker"
+msgstr "Szemaforhacker"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Alex Fiestas"
+msgstr "Alex Fiestas"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Coffee drinker"
+msgstr "Kávéivó"
+
+#: src/main.cpp:28
+#, kde-format
+msgid "caseymoura"
+msgstr "caseymoura"
+
+#: src/main.cpp:28
+#, kde-format
+msgid ""
+"Uploaded the shutter sound: https://freesound.org/people/caseymoura/"
+"sounds/445482/"
+msgstr ""
+"Feltöltötte az exponálóhangot: https://freesound.org/people/caseymoura/"
+"sounds/445482/"
+
+#: src/qml/ImagesView.qml:42
+#, kde-format
+msgid "Share"
+msgstr "Megosztás"
+
+#: src/qml/ImagesView.qml:107 src/qml/ImagesView.qml:152
+#: src/qml/ImagesView.qml:292
+#, kde-format
+msgid "Back"
+msgstr "Vissza"
+
+#: src/qml/ImagesView.qml:146
+#, kde-format
+msgid "Media now exported"
+msgstr "Média exportálva"
+
+#: src/qml/ImagesView.qml:173
+#, kde-format
+msgid "Configure Kamoso"
+msgstr "Kamoso beállítása"
+
+#: src/qml/ImagesView.qml:181
+#, kde-format
+msgid "Save Locations"
+msgstr "Mentési helyek"
+
+#: src/qml/ImagesView.qml:188
+#, kde-format
+msgid "Pictures:"
+msgstr "Képek:"
+
+#: src/qml/ImagesView.qml:203 src/qml/ImagesView.qml:212
+#, kde-format
+msgid "Choose the folder where Kamoso will save pictures"
+msgstr "Válassza ki a mappát, ahová a Kamoso a képeket menteni fogja"
+
+#: src/qml/ImagesView.qml:227
+#, kde-format
+msgid "Videos:"
+msgstr "Videók:"
+
+#: src/qml/ImagesView.qml:242 src/qml/ImagesView.qml:252
+#, kde-format
+msgid "Choose the folder where Kamoso will save videos"
+msgstr "Válassza ki a mappát, ahová a Kamoso a videókat menteni fogja"
+
+#: src/qml/ImagesView.qml:264
+#, kde-format
+msgid "Cameras"
+msgstr "Kamerák"
+
+#: src/qml/ImagesView.qml:280
+#, kde-format
+msgctxt "@option:check as in, 'mirror the camera'"
+msgid "Mirror camera"
+msgstr "Kamera tükrözése"
+
+#: src/qml/ImagesView.qml:319
+#, kde-kuit-format
+msgctxt "@info"
+msgid "There are no images in <filename>%1</filename>"
+msgstr "Nincsenek képek itt: <filename>%1</filename>"
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share %1 Item..."
+msgid_plural "Share %1 Items..."
+msgstr[0] "%1 elem megosztása…"
+msgstr[1] "%1 elem megosztása…"
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share Item..."
+msgstr "Elem megosztása…"
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move %1 Item to Trash"
+msgid_plural "Move %1 Items to Trash"
+msgstr[0] "%1 elem áthelyezése a Kukába"
+msgstr[1] "%1 elem áthelyezése a Kukába"
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move Item to Trash"
+msgstr "Elem áthelyezése a Kukába"
+
+#: src/qml/ImagesView.qml:354
+#, kde-format
+msgid "Open Pictures Folder"
+msgstr "Képek mappa megnyitása"
+
+#: src/qml/ImagesView.qml:363
+#, kde-format
+msgid "Configure Kamoso..."
+msgstr "Kamoso beállítása…"
+
+#: src/qml/Main.qml:84
+#, kde-format
+msgid "Take a Picture"
+msgstr "Kép készítése"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "End Burst"
+msgstr "Sorozat vége"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "Capture a Burst"
+msgstr "Sorozat rögzítése"
+
+#: src/qml/Main.qml:112
+#, kde-format
+msgid "1 photo taken"
+msgid_plural "%1 photos taken"
+msgstr[0] "1 fénykép készült"
+msgstr[1] "%1 fénykép készült"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Stop Recording"
+msgstr "Rögzítés leállítása"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Record a Video"
+msgstr "Videó rögzítése"
+
+#: src/qml/Main.qml:201
+#, kde-format
+msgid "Effects Gallery"
+msgstr "Hatásgaléria"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Photo taken"
+msgstr "Fénykép elkészítve"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Saved in %1"
+msgstr "Mentve ide: %1"
+
+#, fuzzy
+#~| msgid "Move to Trash"
+#~ msgid "Save to..."
+#~ msgstr "Áthelyezés a Kukába"
+
+#, fuzzy
+#~| msgid "Select a directory where to save your pictures and videos"
+#~ msgid "Select a directory where to save your pictures"
+#~ msgstr "Válassza ki, hová kerüljenek az elkészült képek és videók"
+
+#, fuzzy
+#~| msgid "Select a directory where to save your pictures and videos"
+#~ msgid "Select a directory where to save your videos"
+#~ msgstr "Válassza ki, hová kerüljenek az elkészült képek és videók"
+
+#, fuzzy
+#~| msgid "Move to Trash"
+#~ msgid "Move to trash... (%1)"
+#~ msgstr "Áthelyezés a Kukába"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this file?"
+#~| msgid_plural "Are you sure you want to delete these %1 files?"
+#~ msgid "Are you sure you want to remove %1 file?"
+#~ msgid_plural "Are you sure you want to remove %1 files?"
+#~ msgstr[0] "Biztosan törölni szeretné ezt a fájlt?"
+#~ msgstr[1] "Biztosan törölni szeretné ezt a(z) %1 fájlt?"
+
+#~ msgid "Shoot"
+#~ msgstr "Lövés"
+
+#~ msgid "Places"
+#~ msgstr "Helyek"
+
+#~ msgid "Use flash"
+#~ msgstr "Vaku használata"
+
+#, fuzzy
+#~| msgid "Video information:"
+#~ msgid "On screen information"
+#~ msgstr "Videojellemzők:"
+
+#~ msgid "Brightness:"
+#~ msgstr "Fényerő:"
+
+#~ msgid "Hue:"
+#~ msgstr "Árnyalat:"
+
+#~ msgid "Contrast:"
+#~ msgstr "Kontraszt:"
+
+#~ msgid "Saturation:"
+#~ msgstr "Telítettség:"
+
+#~ msgid "Gamma:"
+#~ msgstr "Gamma:"
+
+#~ msgid "Reset"
+#~ msgstr "Visszaállítás"
+
+#~ msgid "The URL was just shared"
+#~ msgstr "Az URL megosztásra került"
+
+#~ msgid "Run"
+#~ msgstr "Futtatás"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Switch to '%1' mode"
+#~ msgstr "Váltás „%1” módba"
+
+#~ msgid "Show gallery..."
+#~ msgstr "Galéria megjelenítése…"
+
+#~ msgid "Show settings..."
+#~ msgstr "Beállítások megjelenítése…"
+
+#~ msgid "Open Directory..."
+#~ msgstr "Mappa megnyitása…"
+
+#~ msgid "Play a sound when a photo is taken."
+#~ msgstr "Hang lejátszása fénykép készítésekor."
+
+#~ msgid "How much seconds kamoso waits before make the picture."
+#~ msgstr "Hány másodpercet várjon a Kamoso, mielőtt elkészíti a képet."
+
+#~ msgid "Webcam picture retriever"
+#~ msgstr "Képkészítő webkamerához"
+
+#~ msgid "Smile! :)"
+#~ msgstr "Mosolyogjon! :)"
+
+#~ msgid "Video Information:"
+#~ msgstr "Videojellemzők:"
+
+#~ msgid "Title"
+#~ msgstr "Cím"
+
+#~ msgid "Tags:"
+#~ msgstr "Címkék:"
+
+#~ msgid "Kamoso, KDE"
+#~ msgstr "Kamoso, KDE"
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid ""
+#~ "You need to supply a username and a password to be able to upload videos "
+#~ "to YouTube"
+#~ msgstr ""
+#~ "A videók YouTube-ra való feltöltéséhez meg kell adnia egy "
+#~ "felhasználónevet és egy jelszót"
+
+#~ msgid "Server:"
+#~ msgstr "Kiszolgáló:"
+
+#~ msgid "Authentication for YouTube"
+#~ msgstr "Hitelesítés a YouTube-hoz"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Title:"
+#~ msgstr "Cím"
+
+#, fuzzy
+#~| msgid "Kamoso"
+#~ msgid "KDE, Kamoso"
+#~ msgstr "Kamoso"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Description:"
+#~ msgstr "Leírás"
+
+#~ msgid "Directory where kamoso saves the photos"
+#~ msgstr "A mappa, ahová a Kamoso a fényképeket menti"
+
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgid "Video Settings"
+#~ msgstr "Videobeállítások"
+
+#~ msgid "Trash"
+#~ msgstr "Kuka"
+
+#~ msgctxt "Used to join urls"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Done: %1"
+#~ msgstr "Kész: %1"
+
+#~ msgid "(C) 2008-2010 Alex Fiestas and Aleix Pol"
+#~ msgstr "© Alex Fiestas és Aleix Pol, 2008-2010."
+
+#~ msgid "Choose the webcam to use:"
+#~ msgstr "Válassza ki a használandó webkamerát:"
+
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgid ">"
+#~ msgstr ">"
+
+#~ msgid "Time until the photo is taken:"
+#~ msgstr "A kép készítéséig hátralévő idő:"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid "Uploads files to YouTube"
+#~ msgstr "Fájlok feltöltése a YouTube-ra"
+
+#~ msgid "Video information:"
+#~ msgstr "Videojellemzők:"
+
+#~ msgid ""
+#~ "This video has been recorded using Kamoso, a KDE software to play with "
+#~ "webcams!"
+#~ msgstr "Ez a videó a Kamosoval készült, a KDE webkamera alkalmazásával."
+
+#~ msgid "Brightness"
+#~ msgstr "Fényerő"
+
+#~ msgid "Hue"
+#~ msgstr "Árnyalat"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontraszt"
+
+#~ msgid "Saturation"
+#~ msgstr "Telítettség"
+
+#~ msgid "Gamma"
+#~ msgstr "Gamma"

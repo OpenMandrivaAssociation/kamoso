@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>org.kde.kamoso.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <developer id="org.kde">
+    <name translate="no">KDE</name>
+    <url>https://kde.org</url>
+  </developer>
+  <launchable type="desktop-id">org.kde.kamoso.desktop</launchable>
+  <name>Kamoso</name>
+  <name xml:lang="ar">كاموسو</name>
+  <name xml:lang="bg">Kamoso</name>
+  <name xml:lang="ca">Kamoso</name>
+  <name xml:lang="ca-valencia">Kamoso</name>
+  <name xml:lang="cs">Kamoso</name>
+  <name xml:lang="da">Kamoso</name>
+  <name xml:lang="de">Kamoso</name>
+  <name xml:lang="el">Kamoso</name>
+  <name xml:lang="en-GB">Kamoso</name>
+  <name xml:lang="eo">Kamoso</name>
+  <name xml:lang="es">Kamoso</name>
+  <name xml:lang="et">Kamoso</name>
+  <name xml:lang="eu">Kamoso</name>
+  <name xml:lang="fi">Kamoso</name>
+  <name xml:lang="fr">Kamoso</name>
+  <name xml:lang="gl">Kamoso</name>
+  <name xml:lang="he">Kamoso</name>
+  <name xml:lang="hu">Kamoso</name>
+  <name xml:lang="ia">Kamoso</name>
+  <name xml:lang="id">Kamoso</name>
+  <name xml:lang="ie">Kamoso</name>
+  <name xml:lang="is">Kamoso</name>
+  <name xml:lang="it">Kamoso</name>
+  <name xml:lang="ka">Kamoso</name>
+  <name xml:lang="ko">Kamoso</name>
+  <name xml:lang="lt">Kamoso</name>
+  <name xml:lang="lv">Kamoso</name>
+  <name xml:lang="nl">Kamoso</name>
+  <name xml:lang="nn">Kamoso</name>
+  <name xml:lang="pa">ਕਮੋਸੋ</name>
+  <name xml:lang="pl">Kamoso</name>
+  <name xml:lang="pt">Kamoso</name>
+  <name xml:lang="pt-BR">Kamoso</name>
+  <name xml:lang="ro">Kamoso</name>
+  <name xml:lang="ru">Kamoso</name>
+  <name xml:lang="sk">Kamoso</name>
+  <name xml:lang="sl">Kamoso</name>
+  <name xml:lang="sv">Kamoso</name>
+  <name xml:lang="tr">Kamoso</name>
+  <name xml:lang="uk">Kamoso</name>
+  <name xml:lang="zh-CN">Kamoso 摄像头</name>
+  <name xml:lang="zh-TW">Kamoso</name>
+  <summary>Use your webcam to take pictures and make videos</summary>
+  <summary xml:lang="ar">استخدام كاميرا الوِبّ لديك لأخذ الصّور و تسجيل الفيديوهات.</summary>
+  <summary xml:lang="bg">Използвайте уеб камерата си, за да правите снимки или видеоклипове</summary>
+  <summary xml:lang="ca">Useu la càmera web per a prendre fotografies o fer vídeos</summary>
+  <summary xml:lang="ca-valencia">Utilitzeu la càmera web per a prendre fotografies o fer vídeos</summary>
+  <summary xml:lang="cs">Používejte svou webkameru k pořizování snímků a videí</summary>
+  <summary xml:lang="da">Brug dit webkamera til at tage billeder eller lave videoer</summary>
+  <summary xml:lang="de">Mit Kamoso können Sie mit Ihrer Webcam Bilder und Videos aufnehmen</summary>
+  <summary xml:lang="el">Λήψη με web κάμερα φωτογραφιών ή βίντεο</summary>
+  <summary xml:lang="en-GB">Use your webcam to take pictures and make videos</summary>
+  <summary xml:lang="eo">Uzu vian retkameraon por preni bildojn kaj fari videofilmojn</summary>
+  <summary xml:lang="es">Use su webcam para capturar imágenes y hacer vídeos</summary>
+  <summary xml:lang="et">Veebikaameraga piltide ja videode tegemine</summary>
+  <summary xml:lang="eu">Erabili zure web-kamera argazkiak atera eta bideoak egiteko</summary>
+  <summary xml:lang="fi">Ota kuvia ja tee videoita web-kamerallasi</summary>
+  <summary xml:lang="fr">Utilisez votre webcam pour prendre des photos et enregistrer des vidéos</summary>
+  <summary xml:lang="gl">Usa a túa cámara web para sacar fotos e gravar vídeos</summary>
+  <summary xml:lang="he">להשתמש במצלמת המחשב שלך כדי לצלם תמונות ולהקליט סרטונים</summary>
+  <summary xml:lang="hu">Használja webkameráját fényképek és videók készítésére</summary>
+  <summary xml:lang="ia">Usa tu webcam per prender photos e facer videos.</summary>
+  <summary xml:lang="id">Gunakan untuk webcam-mu untuk mengambil gambar dan membuat video</summary>
+  <summary xml:lang="is">Notaðu vefmyndavélina þína til að taka myndir eða myndskeið</summary>
+  <summary xml:lang="it">Utilizza la tua webcam per scattare foto o registrare video</summary>
+  <summary xml:lang="ka">გამოიყენეთ კამერა სურათების გადასაღებად და ვიდეოების ჩასაწერად</summary>
+  <summary xml:lang="ko">웹캠으로 사진을 찍거나 동영상 녹화하기</summary>
+  <summary xml:lang="lt">Naudokite savo kamerą norėdami fotografuoti ar filmuoti vaizdo įrašus</summary>
+  <summary xml:lang="lv">Uzņemiet attēlus un ierakstiet video ar ierīces tīmekļa kameru</summary>
+  <summary xml:lang="nl">Uw webcam te gebruiken om foto's of video's te maken</summary>
+  <summary xml:lang="nn">Bruk nettkamera for å ta bilete og laga videoar</summary>
+  <summary xml:lang="pa">ਆਪਣੇ ਕੈਮਰੇ ਨੂੰ ਤਸਵੀਰ ਖਿੱਚਣ ਤੇ ਵਿਡੀਓ ਬਣਾਉਣ ਲਈ ਵਰਤੋਂ</summary>
+  <summary xml:lang="pl">Używaj swojej kamerki do robienia zdjęć i filmów</summary>
+  <summary xml:lang="pt">Use a sua Webcam para tirar fotografias ou criar vídeos</summary>
+  <summary xml:lang="pt-BR">Use sua webcam para tirar fotos e gravar vídeos</summary>
+  <summary xml:lang="ro">Folosiți-vă camera web pentru a face poze și filmulețe</summary>
+  <summary xml:lang="ru">Приложение для получения и видео с веб-камеры.</summary>
+  <summary xml:lang="sk">Použite vašu webkameru na tvorbu fotiek alebo natáčanie videa</summary>
+  <summary xml:lang="sl">Uporabite spletno kamero za fotografiranje in video posnetke</summary>
+  <summary xml:lang="sv">Använda din webbkamera för att ta bilder eller göra videor</summary>
+  <summary xml:lang="tr">Fotoğraf veya video çekmek için web kameranızı kullanın</summary>
+  <summary xml:lang="uk">Kamoso — чудова програма для використання вашої вебкамери для створення знімків або запису відео</summary>
+  <summary xml:lang="zh-CN">使用摄像头拍摄照片或录制视频</summary>
+  <summary xml:lang="zh-TW">使用您的 Webcam 拍照或錄影</summary>
+  <description>
+    <p>Kamoso is a simple and friendly program to use your camera. Use it to take pictures and make videos to share.</p>
+    <p xml:lang="ar">«كاموسو» برنامج رائع وبسيط لاستخدام كاميرا الوِبّ لديك لأخذ الصّور أو تسجيل الفيديوهات.</p>
+    <p xml:lang="bg">Kamoso е проста и удобна програма за използване на вашата камера. Използвайте я, за да правите снимки и да правите видеоклипове, които да споделяте.</p>
+    <p xml:lang="ca">El Kamoso és un programa senzill i fàcil d'emprar per a usar la càmera web. Useu-lo per a prendre fotografies o fer vídeos per a compartir.</p>
+    <p xml:lang="ca-valencia">Kamoso és un programa senzill i fàcil d'emprar per a utilitzar la càmera web. Utilitzeu-lo per a prendre fotografies o fer vídeos per a compartir.</p>
+    <p xml:lang="cs">Kamoso je jednoduchý a uživatelsky přívětivý program pro používání fotoaparátu. Používejte jej k pořizování fotografií a natáčení videí, které můžete sdílet.</p>
+    <p xml:lang="da">Kamoso er et simpelt og brugervenligt program til at bruge dit webkamera. Du kan bruge det til at tage billeder eller lave videoer til at dele med andre.</p>
+    <p xml:lang="de">Kamoso ist ein einfaches und benutzerfreundliches Programm für Ihre Kamera. Benutzen Sie es, um Bilder und Videos  aufzunehmen und freigeben.</p>
+    <p xml:lang="el">Το Kamoso είναι ένα απλό και φιλικό πρόγραμμα για τη χρήση της κάμερας. Χρησιμοποιήστε το για λήψη φωτογραφιών ή βίντεο για κοινή χρήση.</p>
+    <p xml:lang="en-GB">Kamoso is a simple and friendly program to use your camera. Use it to take pictures and make videos to share.</p>
+    <p xml:lang="eo">Kamoso estas simpla kaj amika programo por uzi vian fotilon. Uzu ĝin por fari fotojn kaj fari filmetojn por kundividi.</p>
+    <p xml:lang="es">Kamoso es un programa simple y amigable para usar su webcam. Úselo para capturar imágenes y hacer vídeos que compartir.</p>
+    <p xml:lang="et">Kamoso on lihtne ja kasutajasõbralik rakendus oma kaamera kasutamiseks. Tee sellega pilte ja videoid, mida teistelegi jagada.</p>
+    <p xml:lang="eu">Kamoso zure kamera erabiltzeko programa erraz eta lagunkoia da. Erabili partekatuko diren argazkiak eta bideoak ateratzeko.</p>
+    <p xml:lang="fi">Kamoso on yksinkertainen ja helppo ohjelma kameran käyttöön. Voit ottaa sillä jaettavia kuvia ja videoita.</p>
+    <p xml:lang="fr">Kamoso est un programme simple et intuitif qui vous permettra d'utiliser votre caméra. Vous pouvez l'utiliser pour prendre des photos et enregistrer des vidéos afin de les partager.</p>
+    <p xml:lang="gl">Kamoso é un programa simple para usar facilmente a súa cámara. Úseo para sacar fotos e gravar vídeos para compartir.</p>
+    <p xml:lang="he">Kamoso היא תוכנית פשוטה וידידותית לשימוש במצלמה שלך. אפשר להשתמש בה כדי לצלם תמונות וליצור סרטונים לשיתוף.</p>
+    <p xml:lang="hu">A Kamoso egy egyszerű és felhasználóbarát program kamerája használatához. Használja fényképek és videók készítéséhez és megosztásához.</p>
+    <p xml:lang="ia">Kamoso es un simple e amicale programma per usar tu camera. Tu usa lo per prender photos e facer videos de compartir. </p>
+    <p xml:lang="id">Kamoso adalah program yang mudah dan sederhana untuk penggunaan kameramu. Gunakan ini untuk mengambil gambar dan membuat video untuk dibagikan.</p>
+    <p xml:lang="is">Kamoso er einfalt og vinalegt viðmót fyrir myndavélina þína. Notaðu það til að taka myndir eða myndskeið sem þú getur deilt.</p>
+    <p xml:lang="it">Kamoso è un programma semplice e amichevole per utilizzare la tua webcam. Utilizzalo per scattare foto o registrare video da condividere.</p>
+    <p xml:lang="ka">Kamoso მარტივი და მეგობრული პროგრამაა თქვენი კამერისთვის. მას გასაზიარებლად სურათებისა და ვიდეოების გადაღება შეუძლია.</p>
+    <p xml:lang="ko">Kamoso는 카메라를 사용하는 간단하고 편한 프로그램입니다. 사진과 동영상을 찍고 공유할 수 있습니다.</p>
+    <p xml:lang="lt">Kamoso yra paprasta ir draugiška kamerai naudoti skirta programa. Naudokite ją norėdami fotografuoti ar filmuoti vaizdo įrašus, skirtus bendrinti.</p>
+    <p xml:lang="lv">„Kamoso“ ir vienkāra un lietotājam draudzīga programma ierīces kameras izmantošanai. To izmanto, lai uzņemtu attēlus un ierakstītu video.</p>
+    <p xml:lang="nl">Kamoso is een eenvoudig en vriendelijk programma om uw camera te gebruiken. Gebruik het om foto's en video's te maken en te delen.</p>
+    <p xml:lang="nn">Kamoso er eit brukarvennleg program der du kan bruka nettkameraet ditt til å ta bilete eller laga videoar for å dela med andre.</p>
+    <p xml:lang="pl">Kamoso jest prostym i przyjaznym użytkownikowi programem do używania kamerki internetowej. Używaj go do robienia zdjęć i filmów do udostępnienia w sieci.</p>
+    <p xml:lang="pt">O Kamoso é um programa simples e amigável para usar a sua Webcam. Use-a para tirar fotografias ou criar vídeos para partilhar.</p>
+    <p xml:lang="pt-BR">O Kamoso é um programa simples e amigável para usar sua webcam. Use-o para tirar fotos e gravar vídeos e compartilhá-los.</p>
+    <p xml:lang="ro">Kamoso e un program simplu și prietenos pentru folosirea camerei. Folosiți-l pentru a face poze și filmulețe de partajat.</p>
+    <p xml:lang="ru">Kamoso — простое приложение для захвата видео и изображений с веб-камеры с понятным интерфейсом. Может быть использовано для получения фотографий и видео для публикации.</p>
+    <p xml:lang="sk">Kamoso je jednoduchý program na použitie vašej webkamery na tvorbu fotiek alebo natáčanie videa.</p>
+    <p xml:lang="sl">Kamoso je preprost in prijazen program za uporabo foto naprave. Uporabite ga za zajem slik in videov za skupno rabo.</p>
+    <p xml:lang="sv">Kamoso är ett enkelt och trevligt program för att använda din kamera. Använd det för att ta bilder eller göra videor att dela med dig av.</p>
+    <p xml:lang="tr">Kamoso, kameranızı kullanmak için basit ve kullanıcı dostu bir programdır. Fotoğraf çekmek ve paylaşmak için videolar oluşturmak için kullanın.</p>
+    <p xml:lang="uk">Kamoso — проста і дружня до користувача програма для використання вашої вебкамери для створення знімків або запису відео.</p>
+    <p xml:lang="zh-CN">Kamoso 是一款简单易用的摄像头工具，您可以使用它拍摄照片或录制视频，并与其他人分享作品。</p>
+    <p xml:lang="zh-TW">Kamoso 是一款使用您相機的友好簡單程式。使用它來拍照或錄影以分享。</p>
+  </description>
+  <url type="homepage">https://userbase.kde.org/Kamoso</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kamoso</url>
+  <url type="help">https://docs.kde.org/?application=kamoso</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Kamoso main window</caption>
+      <caption xml:lang="ar">النافذة الرئيسة لكاموسو</caption>
+      <caption xml:lang="bg">Главният прозорец на Kamoso</caption>
+      <caption xml:lang="ca">Finestra principal del Kamoso</caption>
+      <caption xml:lang="ca-valencia">Finestra principal de Kamoso</caption>
+      <caption xml:lang="cs">Hlavní okno Kamoso</caption>
+      <caption xml:lang="da">Kamosos hovedvindue</caption>
+      <caption xml:lang="de">Hauptfenster von Kamoso</caption>
+      <caption xml:lang="el">Kamoso κύριο παράθυρο</caption>
+      <caption xml:lang="en-GB">Kamoso main window</caption>
+      <caption xml:lang="eo">Ĉefa fenestro de Kamoso</caption>
+      <caption xml:lang="es">Ventana principal de Kamoso</caption>
+      <caption xml:lang="et">Kamoso peaaken</caption>
+      <caption xml:lang="eu">Kamoso leiho nagusia</caption>
+      <caption xml:lang="fi">Kamoson pääikkuna</caption>
+      <caption xml:lang="fr">La fenêtre principale de Kamoso</caption>
+      <caption xml:lang="gl">Xanela principal de Kamoso</caption>
+      <caption xml:lang="he">החלון הראשי של Kamoso</caption>
+      <caption xml:lang="hu">A Kamoso főablaka</caption>
+      <caption xml:lang="ia">Fenestra principal de Kamoso</caption>
+      <caption xml:lang="id">Jendela utama Kamoso</caption>
+      <caption xml:lang="ie">Fenestre principal de Kamoso</caption>
+      <caption xml:lang="is">Aðalgluggi Kamoso</caption>
+      <caption xml:lang="it">La finestra principale di Kamoso</caption>
+      <caption xml:lang="ka">Kamoso -ის მთავარი ფანჯარა</caption>
+      <caption xml:lang="ko">Kamoso 주 창</caption>
+      <caption xml:lang="lt">Kamoso pagrindinis langas</caption>
+      <caption xml:lang="lv">„Kamoso“ pamata logs</caption>
+      <caption xml:lang="nl">Hoofdvenster van Kamoso</caption>
+      <caption xml:lang="nn">Hovudvindauge i Kamoso</caption>
+      <caption xml:lang="pa">ਕਮੋਸੋ ਮੁੱਖ ਵਿੰਡੋ</caption>
+      <caption xml:lang="pl">Główne okno Kamoso</caption>
+      <caption xml:lang="pt">Janela principal do Kamoso</caption>
+      <caption xml:lang="pt-BR">Janela principal do Kamoso</caption>
+      <caption xml:lang="ro">Fereastra principală Kamoso</caption>
+      <caption xml:lang="ru">Главное окно приложения Kamoso</caption>
+      <caption xml:lang="sk">Hlavné okno Kamoso</caption>
+      <caption xml:lang="sl">Glavno okno Kamoso</caption>
+      <caption xml:lang="sv">Huvudfönstret i Kamoso</caption>
+      <caption xml:lang="tr">Kamoso ana penceresi</caption>
+      <caption xml:lang="uk">Головне вікно Kamoso</caption>
+      <caption xml:lang="zh-CN">Kamoso 主窗口</caption>
+      <caption xml:lang="zh-TW">Kamoso 主視窗</caption>
+      <image>https://cdn.kde.org/screenshots/kamoso/kamoso.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>kamoso</binary>
+  </provides>
+  <releases>
+    <release version="26.04.0" date="2026-04-16"/>
+    <release version="25.12.3" date="2026-03-05"/>
+    <release version="25.12.2" date="2026-02-05"/>
+    <release version="25.12.1" date="2026-01-08"/>
+    <release version="25.12.0" date="2025-12-11"/>
+    <release version="25.08.3" date="2025-11-06"/>
+    <release version="25.08.2" date="2025-10-09"/>
+    <release version="25.08.1" date="2025-09-11"/>
+    <release version="25.08.0" date="2025-08-14"/>
+    <release version="25.04.3" date="2025-07-03"/>
+    <release version="25.04.2" date="2025-06-05"/>
+    <release version="25.04.1" date="2025-05-08"/>
+    <release version="25.04.0" date="2025-04-17"/>
+    <release version="24.12.3" date="2025-03-06"/>
+    <release version="24.12.2" date="2025-02-06"/>
+    <release version="24.12.1" date="2025-01-09"/>
+    <release version="24.12.0" date="2024-12-12"/>
+    <release version="24.08.3" date="2024-11-07"/>
+    <release version="24.08.2" date="2024-10-10"/>
+    <release version="24.08.1" date="2024-09-12"/>
+    <release version="24.08.0" date="2024-08-22"/>
+    <release version="24.05.2" date="2024-07-04"/>
+    <release version="24.05.1" date="2024-06-13"/>
+    <release version="24.05.0" date="2024-05-23"/>
+    <release version="24.02.2" date="2024-04-11"/>
+    <release version="24.02.1" date="2024-03-21"/>
+    <release version="24.02.0" date="2024-02-28"/>
+    <release version="23.08.5" date="2024-02-15"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

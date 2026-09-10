@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: None
+# SPDX-License-Identifier: CC0-1.0
+
+Dependencies:
+- 'on': ['@all']
+  'require':
+    'frameworks/extra-cmake-modules': '@stable-kf6'
+    'frameworks/kconfig': '@stable-kf6'
+    'frameworks/kdoctools': '@stable-kf6'
+    'frameworks/kio': '@stable-kf6'
+    'frameworks/ki18n': '@stable-kf6'
+    'frameworks/purpose': '@stable-kf6'
+    'frameworks/knotifications': '@stable-kf6'
+
+Options:
+ require-passing-tests-on: ['@all']
+ cmake-options: -DPATCHED_GSTREAMER=ON
