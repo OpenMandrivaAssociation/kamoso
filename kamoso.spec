@@ -36,6 +36,10 @@ BuildRequires:	clang-tools
 BuildSystem:	cmake
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
+# GstGLQt6VideoItem is registered by libgstqml6.so. qmldeps sees that
+# provide when run on the plugin, but gstreamer1.0-plugins-good-Qt6
+# 1.28.8-1 does not carry it. The package require below is the dependency.
+%global __requires_exclude ^qml\\(org\\.freedesktop\\.gstreamer\\.Qt6GLVideoItem\\)$
 Requires:	gstreamer1.0-plugins-good-Qt6
 
 %description
